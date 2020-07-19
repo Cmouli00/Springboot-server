@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://angular-demo-b567c.web.app")
+@CrossOrigin(origins = "*")
 @RestController
 public class UserController {
 
