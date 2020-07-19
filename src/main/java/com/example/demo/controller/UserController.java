@@ -82,7 +82,7 @@ public class UserController {
     return person;
   }
 
-  @PostMapping("/create")
+  @PostMapping("persons/create")
   public Person create(@RequestBody Person person) {
     System.out.println("Adding...");
     Person person1 = repository.save(new Person(person.getName(),person.getMail()));
